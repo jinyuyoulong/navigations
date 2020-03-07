@@ -1,0 +1,25 @@
+body{
+	padding-right: 4em;
+	padding-left: 4em
+}
+
+a{
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+a:hover{
+	background: #409EFF;
+	transition: color 3s;
+}
+a:link{
+	color: #000;
+}
+a:visited{
+	color: #000;
+}
+.category{
+	/*background-color: #DCDFE6;*/
+	color: red;
+	/* text-align: center; */
+}
