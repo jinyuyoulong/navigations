@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小工具</title>
+    <style>
+        .y_num .rate {
+            display: block;
+            width: 400px;
+            margin: 5px 0;
+        }
+        label{
+            display: inline-block;
+            width: 200px;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <p>财务自由，就是提前退休，或者不工作（靠被动收入）就能养活自己（覆盖日常开支）的一种自由，就可以考虑如何过一种自己喜欢的生活。这里有一个大家不容易理解的名词，啥叫被动收入呢？</p>
+        <p>被动收入，也叫「财产性收入」。是指不需要花费太多时间和精力，就可以自动获得的收入。包括但不限于：房租、利息、分红、作品版税、个人博客的广告、代言费等。</p>
+        <p>工资收入，属于「职务性收入」，需要我们每天八小时出卖自己的劳动力去换取，一旦没有了这个收入，我们可能就面临无米下锅的窘境。</p>
+        <h3>财务自由指数计算公式</h3>
+        <p><strong>财务自由指数 = 被动收入 / 日常开支×100%</strong></p>
+        <p>财务自由实现资本=日常开支/被动收益率</p>
+        <div class="retire">
+            <!-- <div class="age" >
+                <label for="age">年龄</label>
+                <input type="text" v-model="age" id="age">
+            </div> -->
+            <!-- <div class="m_num">
+                <label for="m_num">月支出</label>
+                <input type="text" name="" id="m_num" v-model="m_num">
+            </div> -->
+            <div class="y_num">
+                <label for="money">年支出</label>
+                <input type="text" v-model="y_num" id="money">
+            </div>
+            <div class="rate">
+                <label for="rate">年投资收益率</label>
+                <input type="text" v-model="rate">%
+            </div>
+        </div>
+        <hr>
+        <div class="show">
+            <label>启动资金:</label><span>{{totolNum}}</span>
+            <div><label>通货膨胀率:</label><span>3%</span></div>
+            <div><label>实际收益率:</label><span>{{realRate}}%</span></div>
+        </div>
+    </div>
+</body>
+<script src="./js/lib/vue.js"></script>
+<script src="./js/compute.js"></script>
+<script src="./js/main.js"></script>
+</html>
