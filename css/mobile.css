@@ -5,6 +5,12 @@ body{
 	padding-right: 1em;
 	padding-left: 1em
 }
+.item {
+	padding: 3px;
+}
+.item-list {
+	line-height: 150%;
+}
 
 a{
 	margin-right: 10px;
