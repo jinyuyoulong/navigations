@@ -1,8 +1,11 @@
 body{
 	padding-right: 4em;
-	padding-left: 4em
+	padding-left: 4em;
+	background-color: #222F35;
 }
-
+h1{
+	color: #909083;
+}
 .item {
 	padding: 3px;
 }
@@ -15,18 +18,18 @@ a{
 }
 
 a:hover{
-	background: #409EFF;
+	background: #E6DB67;
 	transition: color 3s;
 }
 a:link{
-	color: #000;
+	color: #909083;
 }
 a:visited{
-	color: #000;
+	color: #909083;
 }
 
 .category{
 	/*background-color: #DCDFE6;*/
-	color: red;
+	color: green;
 	/* text-align: center; */
 }
