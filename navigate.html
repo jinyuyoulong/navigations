@@ -12,7 +12,7 @@
 <body>
 	<h1>为吾优导航</h1>
 	<div id="app">
-		<div class="category" v-for="group in groups">{{group.category}}
+		<div class="category" v-for="group in groups" :title="group.title">{{group.category}}
 			<div class="item-list">
 				<a v-for="url in group.urls" :class="url.class" :href="url.url" :title="url.title">{{url.content}}</a>
 				<hr>

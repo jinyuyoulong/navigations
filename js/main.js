@@ -153,8 +153,57 @@ var app = new Vue({
                     {content:"词源",url:"https://www.etymonline.com/"},
                     {content:"dictionary",url:"https://www.dictionary.com/"},
                     {content:"摩西英语",url:"http://www.mosesenglish.com/"},
-                    {content:"",url:""},
                 ]
+            },
+            {
+                category: "业",
+                title: "以此为生",
+                urls: [
+                    {content:"icon 生成",url:"http://icon.wuruihong.com/"},
+                    {content:"苹果过审技巧",url:"http://www.it9188.com/"},
+                    {content:"hacking with swift",url:"https://www.hackingwithswift.com/"},
+                    {content:"版本分布",url:"https://david-smith.org/iosversionstats/"},
+                    {content:"App Store统计数据",url:"https://developer.apple.com/support/app-store/"},
+                    {content:"千牛卖家平台",url:"https://myseller.taobao.com/home.htm"},
+                ]
+            },
+            {
+                category: "建站",
+                urls: [
+                    {content: "七麦数据", title:"App Store运营", url:"https://www.qimai.cn/"},
+                    {content: "站长工具", url:"http://tool.chinaz.com/"},
+                    {content: "最高法大数据", url:"http://www.court.gov.cn/fabu-gengduo-662.html"},
+                    {content: "专利搜索", url:"http://www2.soopat.com/Home/IIndex"},
+                    {content: "微信公众平台", url:"https://mp.weixin.qq.com/"},
+                    {content: "七牛云", url:"https://sso.qiniu.com/"},
+                    {content: "配色设计", url:"https://www.materialpalette.com/grey/brown"},
+                    {content: "中国色", url:"http://zhongguose.com"},
+                    {content: "忘续费域名抢注", title:"帮助抢注忘记续费的域名，收费60$", url:"https://www.pool.com/index.aspx"},
+                    {content: "网赚联盟", url:"https://www.fuyuzhe.com/"},
+                    {content: "知妖", title:"收集中国古今妖怪", url:"https://www.cbaigui.com/"},
+                    {content: "孔夫子", title:"旧书网", url:"https://www.kongfz.com/"},
+                    
+		        ]
+            },
+            {
+                category: "站长",
+                urls: [
+                    {content: "面向信仰编程", url:"https://draveness.me/"},
+                    {content: "ibian", url:"https://www.ibian.online/"},
+                    {content: "陈斌的blog",title:"Emacs提高编程效率", url:"http://blog.binchen.org/categories/index.html"},
+                    {content: "Go101", url:"https://gfw.go101.org/article/101.html"},
+                    {content: "白明-Go", url:"https://tonybai.com"},
+                    {content: "李文周的blog+Go", url:"https://www.liwenzhou.com/"},
+                    {content: "白话C++", url:"http://17de.com/library/CPP/"},
+                    {content: "绿帽子大学", url:"https://lmzdx.com/"},
+                    {content: "刘延栋",  url:"https://liuyandong.com"},
+                    {content: "草根站长杨青", url:"https://www.yangqq.com/"},
+                    {content: "凯凯刘",  url:"http://liujinkai.com/"},
+                    {content: "casa-iOS", url:"https://casatwy.com/"},
+                    {content: "酷壳",url:"https://coolshell.cn/"},
+                    {content: "macTalk",url:"http://macshuo.com/"},
+                    {content: "廖雪峰的官方博客",url:"https://www.liaoxuefeng.com/"},
+		        ]
             }
         ]
     }
