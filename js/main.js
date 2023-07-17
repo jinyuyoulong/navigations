@@ -143,6 +143,7 @@ var app = new Vue({
                     {content: "北京住房公积金", url:"http://www.bjgjj.gov.cn/"},
                     {content: "考试酷", url:"https://www.examcoo.com/index/ku",title:"各类证书考试题库"},
                     {content: "易社保", url:"https://www.eshebao.cn/",title:"自由职业者社保缴纳平台"},
+                    {content: "明日故乡", url:"https://guxiang.app/filter-home/",title:"中国版数字游民指南"}
                 ]
             },
             {
